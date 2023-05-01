@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import logo from './images/TacoBell2.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         <img src={logo}  alt="logo" />
+  
+   
+        <p class="opening-date">Opening will be on 31th May</p>
+        <button class="btn  rounded-pill reserve_seat" type="submit">Book Your seat </button>
+          {/* Learn React */}
+     
       </header>
     </div>
   );
