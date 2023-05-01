@@ -2,13 +2,17 @@
   text-align: center;
 }
   
-body {
+.reserve_bg {
   background-color: #6f4e8e;
   animation: pulse 10s ease-in-out infinite;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  min-width: 100%;
+  height: 100%;
+
+  position:fixed; top:0px; left:0px; bottom:0px; right:0px; 
 }
 
 .reserve_seat{
@@ -19,6 +23,13 @@ body {
       min-height: 6ex; */
       opacity: 0.85;
       font-size:1.4rem;
+
+        transition: transform 0.3s ease-in-out;
+      
+        border-radius: 5px;
+        /* border-radius:50%; */
+    
+      
   }
 
 @keyframes pulse {
@@ -42,6 +53,10 @@ body {
   font-weight: bold;
   font-family: 'Akzidenz-Grotesk', sans-serif;
 }
+.logo{
+  max-width: 100%;
+  max-height: 100%;
+}
 
 @keyframes zoom {
   0% {
@@ -54,13 +69,15 @@ body {
     transform: scale(1.2);
   }
 }
+
 .btn:hover {
   transform: scale(1.1);
+  
   /* border-color: red; */
 }
 
  @media (max-width: 768px) {
-    
+        
         .opening-date {
           font-size: 1.2rem;
         }
