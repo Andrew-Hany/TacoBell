@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/TacoBell/static/css/main.ca4fed5c.css",
-    "main.js": "/TacoBell/static/js/main.b9574606.js",
+    "main.css": "/TacoBell/static/css/main.b228ba41.css",
+    "main.js": "/TacoBell/static/js/main.7f2f3d57.js",
     "static/js/787.3d3869f2.chunk.js": "/TacoBell/static/js/787.3d3869f2.chunk.js",
     "static/media/bg.jpg": "/TacoBell/static/media/bg.77cc7e3c5287d33ab974.jpg",
+    "static/media/shawerma.png": "/TacoBell/static/media/shawerma.671fb401a8f4b706ecbd.png",
+    "static/media/Crispy_chicken Soft Taco.PNG": "/TacoBell/static/media/Crispy_chicken Soft Taco.b6f5b72dc6a5da2dfacc.PNG",
+    "static/media/Crunchy_Taco_Supreme.PNG": "/TacoBell/static/media/Crunchy_Taco_Supreme.c841348e3c9445be6227.PNG",
+    "static/media/Crunchy Taco.PNG": "/TacoBell/static/media/Crunchy Taco.d6216d92f9b129b71a3b.PNG",
+    "static/media/Soft_Taco_supreme.PNG": "/TacoBell/static/media/Soft_Taco_supreme.307879dd2f17899b1955.PNG",
+    "static/media/Naked Chicken taco.PNG": "/TacoBell/static/media/Naked Chicken taco.d09c4d976b4605c90731.PNG",
+    "static/media/Soft_Taco.PNG": "/TacoBell/static/media/Soft_Taco.6982381213007673f151.PNG",
+    "static/media/Flafel Taco.PNG": "/TacoBell/static/media/Flafel Taco.5b5804b236ca67a393c4.PNG",
     "static/media/TacoBell2.png": "/TacoBell/static/media/TacoBell2.ed8031956a128623c3d7.png",
     "index.html": "/TacoBell/index.html",
-    "main.ca4fed5c.css.map": "/TacoBell/static/css/main.ca4fed5c.css.map",
-    "main.b9574606.js.map": "/TacoBell/static/js/main.b9574606.js.map",
+    "main.b228ba41.css.map": "/TacoBell/static/css/main.b228ba41.css.map",
+    "main.7f2f3d57.js.map": "/TacoBell/static/js/main.7f2f3d57.js.map",
     "787.3d3869f2.chunk.js.map": "/TacoBell/static/js/787.3d3869f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca4fed5c.css",
-    "static/js/main.b9574606.js"
+    "static/css/main.b228ba41.css",
+    "static/js/main.7f2f3d57.js"
   ]
 }
