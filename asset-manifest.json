@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TacoBell/static/css/main.b228ba41.css",
-    "main.js": "/TacoBell/static/js/main.7f2f3d57.js",
+    "main.css": "/TacoBell/static/css/main.99d9d44f.css",
+    "main.js": "/TacoBell/static/js/main.78080e10.js",
     "static/js/787.3d3869f2.chunk.js": "/TacoBell/static/js/787.3d3869f2.chunk.js",
     "static/media/bg.jpg": "/TacoBell/static/media/bg.77cc7e3c5287d33ab974.jpg",
     "static/media/shawerma.png": "/TacoBell/static/media/shawerma.671fb401a8f4b706ecbd.png",
@@ -14,12 +14,12 @@
     "static/media/Flafel Taco.PNG": "/TacoBell/static/media/Flafel Taco.5b5804b236ca67a393c4.PNG",
     "static/media/TacoBell2.png": "/TacoBell/static/media/TacoBell2.ed8031956a128623c3d7.png",
     "index.html": "/TacoBell/index.html",
-    "main.b228ba41.css.map": "/TacoBell/static/css/main.b228ba41.css.map",
-    "main.7f2f3d57.js.map": "/TacoBell/static/js/main.7f2f3d57.js.map",
+    "main.99d9d44f.css.map": "/TacoBell/static/css/main.99d9d44f.css.map",
+    "main.78080e10.js.map": "/TacoBell/static/js/main.78080e10.js.map",
     "787.3d3869f2.chunk.js.map": "/TacoBell/static/js/787.3d3869f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b228ba41.css",
-    "static/js/main.7f2f3d57.js"
+    "static/css/main.99d9d44f.css",
+    "static/js/main.78080e10.js"
   ]
 }
