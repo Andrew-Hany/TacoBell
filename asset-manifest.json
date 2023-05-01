@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TacoBell/static/css/main.ca4fed5c.css",
-    "main.js": "/TacoBell/static/js/main.3aa16667.js",
-    "static/js/787.3d3869f2.chunk.js": "/TacoBell/static/js/787.3d3869f2.chunk.js",
-    "static/media/bg.jpg": "/TacoBell/static/media/bg.77cc7e3c5287d33ab974.jpg",
-    "static/media/TacoBell2.png": "/TacoBell/static/media/TacoBell2.ed8031956a128623c3d7.png",
-    "index.html": "/TacoBell/index.html",
-    "main.ca4fed5c.css.map": "/TacoBell/static/css/main.ca4fed5c.css.map",
-    "main.3aa16667.js.map": "/TacoBell/static/js/main.3aa16667.js.map",
-    "787.3d3869f2.chunk.js.map": "/TacoBell/static/js/787.3d3869f2.chunk.js.map"
+    "main.css": "/static/css/main.ca4fed5c.css",
+    "main.js": "/static/js/main.e5682608.js",
+    "static/js/787.3d3869f2.chunk.js": "/static/js/787.3d3869f2.chunk.js",
+    "static/media/bg.jpg": "/static/media/bg.77cc7e3c5287d33ab974.jpg",
+    "static/media/TacoBell2.png": "/static/media/TacoBell2.ed8031956a128623c3d7.png",
+    "index.html": "/index.html",
+    "main.ca4fed5c.css.map": "/static/css/main.ca4fed5c.css.map",
+    "main.e5682608.js.map": "/static/js/main.e5682608.js.map",
+    "787.3d3869f2.chunk.js.map": "/static/js/787.3d3869f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca4fed5c.css",
-    "static/js/main.3aa16667.js"
+    "static/js/main.e5682608.js"
   ]
 }
