@@ -1,25 +1,39 @@
 {
   "files": {
-    "main.css": "/TacoBell/static/css/main.99d9d44f.css",
-    "main.js": "/TacoBell/static/js/main.78080e10.js",
+    "main.css": "/TacoBell/static/css/main.2541cb67.css",
+    "main.js": "/TacoBell/static/js/main.38a17051.js",
     "static/js/787.3d3869f2.chunk.js": "/TacoBell/static/js/787.3d3869f2.chunk.js",
     "static/media/bg.jpg": "/TacoBell/static/media/bg.77cc7e3c5287d33ab974.jpg",
     "static/media/shawerma.png": "/TacoBell/static/media/shawerma.671fb401a8f4b706ecbd.png",
+    "static/media/COMBOS4.png": "/TacoBell/static/media/COMBOS4.d18e314a0ccce6dece5f.png",
+    "static/media/COMBOS7.png": "/TacoBell/static/media/COMBOS7.15d2037d69500d14feb4.png",
+    "static/media/COMBOS6.png": "/TacoBell/static/media/COMBOS6.d9d0508b95f7019e85d8.png",
+    "static/media/COMBOS2.png": "/TacoBell/static/media/COMBOS2.e5d2c4fca5c7c9a08cee.png",
     "static/media/Crispy_chicken Soft Taco.PNG": "/TacoBell/static/media/Crispy_chicken Soft Taco.b6f5b72dc6a5da2dfacc.PNG",
+    "static/media/COMBOS5.png": "/TacoBell/static/media/COMBOS5.8dae2fc79517ed3b960f.png",
+    "static/media/COMBOS3.png": "/TacoBell/static/media/COMBOS3.00673922cd6872f50919.png",
     "static/media/Crunchy_Taco_Supreme.PNG": "/TacoBell/static/media/Crunchy_Taco_Supreme.c841348e3c9445be6227.PNG",
     "static/media/Crunchy Taco.PNG": "/TacoBell/static/media/Crunchy Taco.d6216d92f9b129b71a3b.PNG",
     "static/media/Soft_Taco_supreme.PNG": "/TacoBell/static/media/Soft_Taco_supreme.307879dd2f17899b1955.PNG",
     "static/media/Naked Chicken taco.PNG": "/TacoBell/static/media/Naked Chicken taco.d09c4d976b4605c90731.PNG",
+    "static/media/COMBOS1.png": "/TacoBell/static/media/COMBOS1.d9bccdb6bbce7d45d10f.png",
+    "static/media/BURRITOS2.png": "/TacoBell/static/media/BURRITOS2.b108e22d327a86a92ca1.png",
+    "static/media/BURRITOS1.png": "/TacoBell/static/media/BURRITOS1.7df3bbd909786f2913b2.png",
+    "static/media/BURRITOS3.png": "/TacoBell/static/media/BURRITOS3.d0bede46ef77acad54ca.png",
     "static/media/Soft_Taco.PNG": "/TacoBell/static/media/Soft_Taco.6982381213007673f151.PNG",
+    "static/media/BURRITOS4.png": "/TacoBell/static/media/BURRITOS4.5cf6a16b33ba8bf7ff24.png",
+    "static/media/BURRITOS5.png": "/TacoBell/static/media/BURRITOS5.90a53921f2c918caa8ca.png",
+    "static/media/BURRITOS6.png": "/TacoBell/static/media/BURRITOS6.2ec669e968043326f01e.png",
+    "static/media/BURRITOS7.png": "/TacoBell/static/media/BURRITOS7.90126f89b1406d950091.png",
     "static/media/Flafel Taco.PNG": "/TacoBell/static/media/Flafel Taco.5b5804b236ca67a393c4.PNG",
     "static/media/TacoBell2.png": "/TacoBell/static/media/TacoBell2.ed8031956a128623c3d7.png",
     "index.html": "/TacoBell/index.html",
-    "main.99d9d44f.css.map": "/TacoBell/static/css/main.99d9d44f.css.map",
-    "main.78080e10.js.map": "/TacoBell/static/js/main.78080e10.js.map",
+    "main.2541cb67.css.map": "/TacoBell/static/css/main.2541cb67.css.map",
+    "main.38a17051.js.map": "/TacoBell/static/js/main.38a17051.js.map",
     "787.3d3869f2.chunk.js.map": "/TacoBell/static/js/787.3d3869f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99d9d44f.css",
-    "static/js/main.78080e10.js"
+    "static/css/main.2541cb67.css",
+    "static/js/main.38a17051.js"
   ]
 }
