@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TacoBell/static/css/main.50fe63a0.css",
-    "main.js": "/TacoBell/static/js/main.5aa0b75e.js",
+    "main.js": "/TacoBell/static/js/main.9baa960e.js",
     "static/js/787.3d3869f2.chunk.js": "/TacoBell/static/js/787.3d3869f2.chunk.js",
     "static/media/bg.jpg": "/TacoBell/static/media/bg.77cc7e3c5287d33ab974.jpg",
     "static/media/shawerma.png": "/TacoBell/static/media/shawerma.671fb401a8f4b706ecbd.png",
@@ -61,11 +61,11 @@
     "static/media/TacoBell2.png": "/TacoBell/static/media/TacoBell2.ed8031956a128623c3d7.png",
     "index.html": "/TacoBell/index.html",
     "main.50fe63a0.css.map": "/TacoBell/static/css/main.50fe63a0.css.map",
-    "main.5aa0b75e.js.map": "/TacoBell/static/js/main.5aa0b75e.js.map",
+    "main.9baa960e.js.map": "/TacoBell/static/js/main.9baa960e.js.map",
     "787.3d3869f2.chunk.js.map": "/TacoBell/static/js/787.3d3869f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50fe63a0.css",
-    "static/js/main.5aa0b75e.js"
+    "static/js/main.9baa960e.js"
   ]
 }
