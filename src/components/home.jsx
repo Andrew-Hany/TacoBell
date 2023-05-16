@@ -4,10 +4,44 @@ import Im from './bg.jpg'
 
 import Cards from './cards';
 // import Footer from './footer';
+import { Link } from "react-router-dom";
+
+
 
 
 export default class userhomepage extends Component {
- 
+    state={
+      filter:"TACOS"
+}
+
+handelCombos=()=>{
+    this.setState({filter:"COMBOS"})
+}
+handelTacos=()=>{
+    this.setState({filter:"TACOS"})
+}
+handelBURRITOS=()=>{
+    this.setState({filter:"BURRITOS"})
+}
+handelGROUPS=()=>{
+    this.setState({filter:"GROUPS"})
+}
+handelDRINKS=()=>{
+    this.setState({filter:"DRINKS"})
+}
+handelDESSERTS=()=>{
+    this.setState({filter:"DESSERTS"})
+}
+handelSPECIALTIES=()=>{
+    this.setState({filter:"SPECIALTIES"})
+}
+handelSIDES=()=>{
+    this.setState({filter:"SIDES"})
+}
+handelTUESDAYS=()=>{
+    this.setState({filter:"TACO TUESDAYS"})
+}
+
 
 
     render() {
@@ -25,24 +59,63 @@ export default class userhomepage extends Component {
                             <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
                       
                                 <div className="container-fluid shadow-lg m-1">
-                                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                                <div className="text-start  h4 font-weight-bold ml-3">Menu</div>
+                                    <div className=" navbar-collapse" id="navbarSupportedContent">
+                                        <div className="text-start  h4 font-weight-bold ml-3">Menu</div>
 
 
-                            </div>
-                            </div>           
-                        </nav>
+                                    </div>
+                                </div>           
+                            </nav>
+                    </div>
+                    <div className="  ">
+                            <nav className="navbar navbar-expand-sm navbar-light bg-light ">
+                      
+                                <div className="container-fluid">
+                                    <div className=" navbar-collapse filters ">
+                                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                            <label class={"btn  ml-5 text_size menuitem  " +(this.state.filter==="COMBOS" ? " btn-secondary" : '')}>
+                                                <input type="radio" name="options" id="option1" autocomplete="off" checked onClick={()=>this.handelCombos()}/> COMBOS
+                                            </label>
+                                            <label class={"btn  ml-5 text_size  " +(this.state.filter==="TACOS" ? " btn-secondary" : '')} >
+                                                <input type="radio" name="options" id="option2" autocomplete="off" onClick={()=>this.handelTacos()}/> TACOS
+                                            </label>
+                                            <label  class={"btn  ml-5 text_size  " +(this.state.filter==="BURRITOS" ? " btn-secondary" : '')}>
+                                                <input type="radio" name="options" id="option3" autocomplete="off"onClick={()=>this.handelBURRITOS()}/> BURRITOS
+                                            </label>
+                                            <label class={"btn  ml-5 text_size  " +(this.state.filter==="SPECIALTIES" ? " btn-secondary" : '')}>
+                                                <input type="radio" name="options" id="option1" autocomplete="off" checked onClick={()=>this.handelSPECIALTIES()}/> SPECIALTIES
+                                            </label>
+                                            <label class={"btn  ml-5 text_size  " +(this.state.filter==="SIDES" ? " btn-secondary" : '')}>
+                                                <input type="radio" name="options" id="option2" autocomplete="off" onClick={()=>this.handelSIDES()}/> SIDES
+                                            </label>
+                                            <label class={"btn  ml-5 text_size  " +(this.state.filter==="DESSERTS" ? " btn-secondary" : '')}>
+                                                <input type="radio" name="options" id="option1" autocomplete="off" checked onClick={()=>this.handelDESSERTS()}/> DESSERTS
+                                            </label>
+                                            <label class={"btn  ml-5 text_size  " +(this.state.filter==="DRINKS" ? " btn-secondary" : '')}>
+                                                <input type="radio" name="options" id="option2" autocomplete="off" onClick={()=>this.handelDRINKS()}/> DRINKS
+                                            </label>
+                                        
+                                            <label class={"btn  ml-5 text_size  " +(this.state.filter==="GROUPS" ? " btn-secondary" : '')}>
+                                                <input type="radio" name="options" id="option2" autocomplete="off" onClick={()=>this.handelGROUPS()}/> GROUPS
+                                            </label>
+                                         
+                                        </div>
+                                        
+                                      
+
+
+                                    </div>
+                                </div>           
+                            </nav>
                     </div>
 
-                    {/* <div className='container'>
-                        <h1 className="problem_describtion">Problem Description</h1>
-                       
-                            <p className='text-left'>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Face recognition is a method that allows us to identify individuals using their faces. This capability of identifying people is very helpful, and it has a wide range of applications in different sectors. It can be used in healthcare to, for example, facilitate the process of patients’ check-in by determining their identities and insurance data, in schools for security purposes or attendance monitoring, or in stores for fraud prevention. It has been used for different covid-related applications as well.
-                                Face recognition applications have been increasing significantly over the recent few decades. There are major advancements in this technology, including a very important research area which is emotional intelligence in which facial recognition systems are capable of interpreting people’s emotions.
-                                We have ound this topic very interesting due to the variety of its amazing, powerful applications. </p> 
-                    </div>         */}
-                    <Cards/>
+           
+                    <Cards
                     
+                    filter={this.state.filter}
+                    addtoCart={this.props.addtoCart}
+                    />
+                    <Link className={this.props.carditems.length==0?'d-none':'checkout btn'} to="/mycart">Checkout <span className='rounded-circle'>({this.props.carditems.length})</span></Link>                   
                      
                    {/* <Footer/> */}
                    

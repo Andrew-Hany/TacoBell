@@ -16,20 +16,17 @@ export default class Card extends Component {
 
         return (
             <div>
-                <div className="cards">      
-                    <Link className="d-block text-decoration-none text-dark shadow card-body" style={{width: "18rem", backgroundColor:"white",cursor:"pointer"}} to={"/"+this.props.task}>
+                <div className="cards">    
+                <div  className=" shadow" style={{width: "18rem", backgroundColor:"white"}}>
+                    <div className="d-block text-decoration-none text-dark  card-body card_text"  >
+                        
                         <img src={this.props.Im} className="card-img-top cropped1" />
-                        <h6 className="text-capitalize card-title">{this.props.task}</h6>
-                        <p className=" card-text fs-6 ">{this.props.desciption}</p>
-                        
-                       {/* <Prog
-                       percentage={this.props.percentage}
-                       color={this.props.color}
-                       /> */}
-                        
-                       
-                       
-                    </Link>    
+                        <h6 className="text-capitalize card-title">{this.props.name}</h6>
+                        <p className=" card-text ">{this.props.desciption}</p> 
+
+                    </div>
+                    <button className='btn card_button fa fa-shopping-cart mb-2 ' onClick={()=>this.props.addtoCart(this.props.card)}> Add to my Cart</button>
+                  </div>    
                 </div>      
             </div>
             )

@@ -26,7 +26,8 @@
 
         transition: transform 0.3s ease-in-out;
       
-        border-radius: 5px;
+        border-radius: 25px;
+        width: 10em;
         /* border-radius:50%; */
     
       

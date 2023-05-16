@@ -1,0 +1,154 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cropped1_cart {
+    /* width: 200px;  */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-bottom:5%;
+    margin: 2%;
+    
+    
+    /* border: 5px solid black; */
+  }
+  .cart-padding{
+    padding: 5%;
+    margin: 5%;
+  }
+ 
+
+ 
+  .counter {
+    width: 15%;
+    position: relative;
+    top:50px;
+  }
+  
+  
+  .counter .btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .counter .btn:hover {
+     background-color:#ccc; 
+  }
+  
+  .counter .count {
+     font-family: Arial, sans-serif; 
+     font-size:16px; 
+     color:#333; 
+     margin-left:10px; 
+     margin-right:10px; 
+  }
+
+  .total { 
+    display:flex; 
+    justify-content:flex-end; 
+    align-items:flex-end; 
+    /* margin-top:20px;  */
+ }
+ 
+ .total h3 { 
+    font-family: Arial, sans-serif; 
+    font-size:18px; 
+    color:#333; 
+    margin-right:10px; 
+ }
+ .total h3 i{
+    font-size: 18px;
+ }
+ 
+ .total button { 
+    width:100px; 
+    height:40px; 
+    border:none; 
+    border-radius:5px; 
+    /* background-color:#6f4e8e;  */
+    color:#fff; 
+    font-family: Arial, sans-serif; 
+    font-size:16px; 
+ }
+
+ .email{
+    width:100%
+ }
+ .blurrybg{
+    background-color: gray;
+    z-index: 1;
+    opacity: 0.8;
+    position:fixed; top:0px; left:0px; bottom:0px; right:0px; 
+
+ }
+ .overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 6;
+    width:50%;
+    height: 50%;
+    position:fixed; top:20%; left:20%; bottom:20%; right:20%; 
+    opacity: 1;
+    border-radius: 13px;
+    text-align: center;
+ }
+ .overlay div:nth-child(2){
+    position:absolute;
+    padding: 10px;
+    bottom: 10px;
+
+    right: 38%;
+  
+
+    
+ }
+
+
+  @media (max-width: 768px) {
+        
+    .cropped1_cart {
+        height: 100px;
+    
+    }
+    .about {
+       
+        top:20px;
+      }
+      .cart-padding{
+        padding: 3%;
+        margin:1%
+      }
+      .counter {
+        top:20px;
+      }
+      .email{
+        width:100%
+     }
+     .overlay{
+        
+        z-index: 6;
+        width:80%;
+        height: 20%;
+        position:fixed; top:30%; left:10%; bottom:70%; right:10%; 
+       
+     }
+     .overlay div:nth-child(2){
+        position:absolute;
+        padding: 10px;
+        bottom: 10px;
+    
+        right: 28%;
+     
+     }
+     /* .overlaytext{} */
+  }
+
+  
